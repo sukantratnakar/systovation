@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Published | Systovation Publishing</title>
+    <meta name="description" content="Ready to become a published author? Submit your manuscript to Systovation Publishing. We help bring meaningful stories to life.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg: #FAFAF8;
+            --bg-alt: #F5F4F0;
+            --text: #1A1A1A;
+            --text-muted: #6B7280;
+            --accent: #2D5A4A;
+            --accent-light: #3D7A6A;
+            --gold: #B8860B;
+            --border: #E5E5E3;
+            --shadow: 0 4px 20px rgba(0,0,0,0.08);
+            --radius: 12px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-weight: 500;
+        }
+
+        a { color: var(--accent); text-decoration: none; }
+        p { color: var(--text-muted); }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(250, 250, 248, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            z-index: 1000;
+            padding: 16px 0;
+        }
+
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        .logo span { color: var(--accent); }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text);
+            font-weight: 500;
+        }
+
+        /* Hero */
+        .hero {
+            padding: 160px 0 80px;
+            background: linear-gradient(135deg, var(--bg) 0%, var(--bg-alt) 100%);
+        }
+
+        .hero .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            margin-bottom: 24px;
+        }
+
+        .hero h1 span {
+            color: var(--accent);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 32px;
+        }
+
+        .hero-cta {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 14px 28px;
+            border-radius: var(--radius);
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            border: none;
+            font-size: 1rem;
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--accent-light);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--text);
+            border: 2px solid var(--border);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        .hero-image {
+            display: flex;
+            justify-content: center;
+        }
+
+        .hero-visual {
+            width: 100%;
+            max-width: 400px;
+            aspect-ratio: 1;
+            background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
+            border-radius: var(--radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 8rem;
+        }
+
+        /* What We Offer */
+        .services {
+            padding: 80px 0;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-header h2 {
+            font-size: 2rem;
+            margin-bottom: 16px;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 32px;
+        }
+
+        .service-card {
+            background: white;
+            padding: 32px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            text-align: center;
+        }
+
+        .service-icon {
+            width: 64px;
+            height: 64px;
+            background: var(--bg-alt);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 1.5rem;
+        }
+
+        .service-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 12px;
+        }
+
+        /* Process */
+        .process {
+            padding: 80px 0;
+            background: var(--bg-alt);
+        }
+
+        .process-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+        }
+
+        .step {
+            text-align: center;
+            position: relative;
+        }
+
+        .step-number {
+            width: 60px;
+            height: 60px;
+            background: var(--accent);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 0 auto 20px;
+        }
+
+        .step h3 {
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+
+        /* Form Section */
+        .inquiry {
+            padding: 80px 0;
+        }
+
+        .inquiry-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: start;
+        }
+
+        .inquiry-info h2 {
+            font-size: 2rem;
+            margin-bottom: 24px;
+        }
+
+        .inquiry-info p {
+            margin-bottom: 24px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .contact-item svg {
+            color: var(--accent);
+        }
+
+        .inquiry-form {
+            background: white;
+            padding: 40px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+        }
+
+        .form-group {
+            margin-bottom: 24px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 14px 16px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-size: 1rem;
+            font-family: inherit;
+            transition: border-color 0.2s;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--text);
+            color: var(--bg);
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        footer a { color: rgba(255,255,255,0.7); }
+
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            .hero .container { grid-template-columns: 1fr; }
+            .hero-image { order: -1; }
+            .inquiry-grid { grid-template-columns: 1fr; }
+            .form-row { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="/" class="logo">Systo<span>vation</span></a>
+            <ul class="nav-links">
+                <li><a href="/books.html">Books</a></li>
+                <li><a href="/authors.html">Authors</a></li>
+                <li><a href="/get-published.html">Get Published</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Your Story <span>Deserves</span> to Be Told</h1>
+                <p>We help authors bring their vision to life. From manuscript to marketplace, Systovation Publishing is your partner in making your book a reality.</p>
+                <div class="hero-cta">
+                    <a href="#inquiry" class="btn btn-primary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 20h9"></path>
+                            <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                        </svg>
+                        Submit Your Manuscript
+                    </a>
+                    <a href="https://cal.com/sukantratnakar/lets-talk" target="_blank" class="btn btn-secondary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        Book a Call
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-visual">📖</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What We Offer -->
+    <section class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>What We Offer</h2>
+                <p>Full-service publishing support to bring your book to readers worldwide</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">✍️</div>
+                    <h3>Editorial Support</h3>
+                    <p>Professional editing and feedback to refine your manuscript and strengthen your voice.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Cover Design</h3>
+                    <p>Eye-catching, professional cover designs that capture your book's essence and attract readers.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📚</div>
+                    <h3>Print & Digital</h3>
+                    <p>Publication in multiple formats—paperback, hardcover, and e-book—for maximum reach.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🌍</div>
+                    <h3>Global Distribution</h3>
+                    <p>Amazon, Ingram Spark, and retail channels worldwide. Your book, everywhere readers are.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📈</div>
+                    <h3>Marketing Support</h3>
+                    <p>Strategic guidance on launches, positioning, and building your author platform.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💰</div>
+                    <h3>Fair Royalties</h3>
+                    <p>Transparent royalty structure with regular payments. Your success is our success.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process -->
+    <section class="process">
+        <div class="container">
+            <div class="section-header">
+                <h2>The Publishing Journey</h2>
+                <p>From idea to bookshelf in four simple steps</p>
+            </div>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Submit</h3>
+                    <p>Share your manuscript or book idea with us</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Review</h3>
+                    <p>Our team evaluates fit and provides feedback</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Create</h3>
+                    <p>Edit, design, and prepare for publication</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Publish</h3>
+                    <p>Launch your book to readers worldwide</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inquiry Form -->
+    <section class="inquiry" id="inquiry">
+        <div class="container">
+            <div class="inquiry-grid">
+                <div class="inquiry-info">
+                    <h2>Let's Talk About Your Book</h2>
+                    <p>Whether you have a finished manuscript or just the seed of an idea, we'd love to hear from you. Fill out the form and our publishing team will be in touch.</p>
+                    
+                    <div class="contact-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <span>sukant@quantraz.com</span>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        <a href="https://cal.com/sukantratnakar/lets-talk" target="_blank">Schedule a Discovery Call</a>
+                    </div>
+                </div>
+                
+                <form class="inquiry-form" id="publishForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="bookTitle">Working Title</label>
+                        <input type="text" id="bookTitle" name="bookTitle" placeholder="What's your book called?">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="genre">Genre / Category</label>
+                        <select id="genre" name="genre">
+                            <option value="">Select a category...</option>
+                            <option value="business">Business & Leadership</option>
+                            <option value="personal-development">Personal Development</option>
+                            <option value="memoir">Memoir & Biography</option>
+                            <option value="fiction">Fiction</option>
+                            <option value="children">Children's Books</option>
+                            <option value="spirituality">Spirituality & Mindfulness</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="stage">Where are you in the process?</label>
+                        <select id="stage" name="stage">
+                            <option value="">Select...</option>
+                            <option value="idea">I have an idea</option>
+                            <option value="writing">Currently writing</option>
+                            <option value="draft">First draft complete</option>
+                            <option value="edited">Edited and ready</option>
+                            <option value="published">Already published (seeking distribution)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Tell us about your book</label>
+                        <textarea id="message" name="message" rows="4" placeholder="What's your book about? What inspired you to write it?"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">
+                        Submit Inquiry
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Systovation Publishing. <a href="/">Back to Home</a></p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('publishForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData);
+            data.timestamp = new Date().toISOString();
+            
+            // Store locally
+            const inquiries = JSON.parse(localStorage.getItem('systovation_publish_inquiries') || '[]');
+            inquiries.push(data);
+            localStorage.setItem('systovation_publish_inquiries', JSON.stringify(inquiries));
+            
+            // Show success
+            alert('Thank you! Your inquiry has been submitted. We\'ll be in touch soon.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>

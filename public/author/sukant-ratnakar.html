@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sukant Ratnakar | Systovation Publishing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/design-system.css">
+  <style>
+    .author-hero {
+      display: flex;
+      gap: 3rem;
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+      align-items: flex-start;
+    }
+    .author-photo {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid var(--copper);
+      flex-shrink: 0;
+    }
+    .author-info h1 {
+      font-family: 'Libre Baskerville', serif;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .author-role {
+      color: var(--copper);
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+    .author-bio {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: var(--cream);
+    }
+    .author-links {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .author-links a {
+      color: var(--copper);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .author-links a:hover {
+      text-decoration: underline;
+    }
+    .author-books {
+      padding: 3rem 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .author-books h2 {
+      font-family: 'Libre Baskerville', serif;
+      margin-bottom: 2rem;
+    }
+    .books-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 2rem;
+    }
+    .book-card {
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s;
+    }
+    .book-card:hover {
+      transform: translateY(-5px);
+    }
+    .book-card img {
+      width: 100%;
+      aspect-ratio: 2/3;
+      object-fit: contain;
+      background: #1a1a1a;
+      border-radius: 8px;
+    }
+    .book-card h4 {
+      margin-top: 0.75rem;
+      font-size: 0.95rem;
+      color: var(--cream);
+    }
+    @media (max-width: 768px) {
+      .author-hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .author-links {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <a href="/" class="logo">Systovation</a>
+    <div class="nav-links">
+      <a href="/books.html">Books</a>
+      <a href="/authors.html">Authors</a>
+      <a href="/get-published.html">Get Published</a>
+    </div>
+  </nav>
+
+  <section class="author-hero">
+    <img src="/assets/authors/sukant-ratnakar.jpg" alt="Sukant Ratnakar" class="author-photo">
+    <div class="author-info">
+      <h1>Sukant Ratnakar</h1>
+      <p class="author-role">Founder & Publisher</p>
+      <p class="author-bio">Sukant Ratnakar has been thinking about how people and organizations evolve for over twenty years. He's written more than thirty books on topics ranging from mindfulness to management, but they all circle back to the same question: how do we grow without losing ourselves? He founded Systovation Publishing because he believes executives have wisdom worth sharing and deserve help getting it onto paper. When he's not writing or consulting, you'll find him in Saskatoon, Canada, probably working on the next Quantraz book.</p>
+      
+      <div class="author-links">
+        <a href="https://sukantratnakar.com" target="_blank">🌐 Website</a>
+        <a href="https://linkedin.com/in/sukantratnakar" target="_blank">💼 LinkedIn</a>
+      </div>
+      
+    </div>
+  </section>
+
+  
+  <section class="author-books">
+    <h2>Books by Sukant Ratnakar</h2>
+    <div class="books-grid">
+      
+    <a href="/book/omnimeta-mindfulness.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/fynv/files/large/1.jpg" alt="OmniMeta Mindfulness" loading="lazy">
+      <h4>OmniMeta Mindfulness</h4>
+    </a>
+  
+    <a href="/book/tinergy-workshop.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/uxsb/files/large/1.jpg" alt="Workshop | Tinergy Management System" loading="lazy">
+      <h4>Workshop | Tinergy Management System</h4>
+    </a>
+  
+    <a href="/book/shallots-indus-cafe.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/omlf/files/large/1.jpg" alt="Quantraz Shallots SH20 - Indus Cafe" loading="lazy">
+      <h4>Quantraz Shallots SH20 - Indus Cafe</h4>
+    </a>
+  
+    <a href="/book/white-space-2.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/wchl/files/large/1.jpg" alt="White Space Thinking Vol 2" loading="lazy">
+      <h4>White Space Thinking Vol 2</h4>
+    </a>
+  
+    <a href="/book/quantraz-8.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/oplf/files/large/1.jpg" alt="Quantraz 8.0" loading="lazy">
+      <h4>Quantraz 8.0</h4>
+    </a>
+  
+    <a href="/book/quantraz-7.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/rivy/files/large/1.jpg" alt="Quantraz 7.0" loading="lazy">
+      <h4>Quantraz 7.0</h4>
+    </a>
+  
+    <a href="/book/quantraz-6.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/dfbm/files/large/1.jpg" alt="Quantraz 6.0" loading="lazy">
+      <h4>Quantraz 6.0</h4>
+    </a>
+  
+    <a href="/book/quantraz-5.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/recv/files/large/1.jpg" alt="Quantraz 5.0" loading="lazy">
+      <h4>Quantraz 5.0</h4>
+    </a>
+  
+    <a href="/book/quantraz-4.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/bggk/files/large/1.jpg" alt="Quantraz 4.0" loading="lazy">
+      <h4>Quantraz 4.0</h4>
+    </a>
+  
+    <a href="/book/quantraz-3.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/qrey/files/large/1.jpg" alt="Quantraz 3.0" loading="lazy">
+      <h4>Quantraz 3.0</h4>
+    </a>
+  
+    <a href="/book/quantraz-2.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/ynjs/files/large/1.jpg" alt="Quantraz 2.0" loading="lazy">
+      <h4>Quantraz 2.0</h4>
+    </a>
+  
+    <a href="/book/quantraz-1.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/nznq/files/large/1.jpg" alt="Quantraz 1.0" loading="lazy">
+      <h4>Quantraz 1.0</h4>
+    </a>
+  
+    <a href="/book/tinergy-reflections.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/ukth/files/large/1.jpg" alt="Tinergy Reflections TZ 4.1" loading="lazy">
+      <h4>Tinergy Reflections TZ 4.1</h4>
+    </a>
+  
+    <a href="/book/zero.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/yxku/files/large/1.jpg" alt="Zero - Before and After Singularity" loading="lazy">
+      <h4>Zero - Before and After Singularity</h4>
+    </a>
+  
+    <a href="/book/ikentics.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/vnrg/files/large/1.jpg" alt="iKentics - The Science of Ideas" loading="lazy">
+      <h4>iKentics - The Science of Ideas</h4>
+    </a>
+  
+    <a href="/book/white-space-1.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/guev/files/large/1.jpg" alt="White Space Thinking Vol 1" loading="lazy">
+      <h4>White Space Thinking Vol 1</h4>
+    </a>
+  
+    <a href="/book/systovation-evolution.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/dglz/files/large/1.jpg" alt="Systovation Evolution Ecosystem" loading="lazy">
+      <h4>Systovation Evolution Ecosystem</h4>
+    </a>
+  
+    <a href="/book/the-flip-effect.html" class="book-card">
+      <img src="/assets/books/flip-effect.jpg" alt="THE FLIP EFFECT" loading="lazy">
+      <h4>THE FLIP EFFECT</h4>
+    </a>
+  
+    <a href="/book/quantraz-corporate.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/gsee/files/large/1.jpg" alt="Quantraz - The Evolution Company" loading="lazy">
+      <h4>Quantraz - The Evolution Company</h4>
+    </a>
+  
+    <a href="/book/singularity.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/dmeb/files/large/1.jpg" alt="Singularity - The Evolution Game" loading="lazy">
+      <h4>Singularity - The Evolution Game</h4>
+    </a>
+  
+    <a href="/book/indians-of-saskatoon.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/elju/files/large/1.jpg" alt="Indians of Saskatoon" loading="lazy">
+      <h4>Indians of Saskatoon</h4>
+    </a>
+  
+    <a href="/book/we-have-just-arrived.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/zmqa/files/large/1.jpg" alt="We Have Just Arrived" loading="lazy">
+      <h4>We Have Just Arrived</h4>
+    </a>
+  
+    <a href="/book/qudo-user-guide.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/zzhj/files/large/1.jpg" alt="QUDO User Guide" loading="lazy">
+      <h4>QUDO User Guide</h4>
+    </a>
+  
+    <a href="/book/qudo-intro.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/tjrr/files/large/1.jpg" alt="QUDO Introduction" loading="lazy">
+      <h4>QUDO Introduction</h4>
+    </a>
+  
+    <a href="/book/marten.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/egbb/files/large/1.jpg" alt="MQ01SH08 - Marten" loading="lazy">
+      <h4>MQ01SH08 - Marten</h4>
+    </a>
+  
+    <a href="/book/gst.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/pbao/files/large/1.jpg" alt="GST" loading="lazy">
+      <h4>GST</h4>
+    </a>
+  
+    <a href="/book/look-beyond.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/ateh/files/large/1.jpg" alt="Look Beyond" loading="lazy">
+      <h4>Look Beyond</h4>
+    </a>
+  
+    <a href="/book/community-connect-2.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/mvgl/files/large/1.jpg" alt="Community Connect Volume 2" loading="lazy">
+      <h4>Community Connect Volume 2</h4>
+    </a>
+  
+    <a href="/book/community-connect-oct25.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/rbrx/files/large/1.jpg" alt="Community Connect - Oct 2025" loading="lazy">
+      <h4>Community Connect - Oct 2025</h4>
+    </a>
+  
+    <a href="/book/qudo-4x.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/tvit/files/large/1.jpg" alt="QUDO - 4X Energy System" loading="lazy">
+      <h4>QUDO - 4X Energy System</h4>
+    </a>
+  
+    </div>
+  </section>
+  
+
+  <footer class="footer">
+    <p>© 2026 Systovation Publishing. A Quantraz Company.</p>
+  </footer>
+</body>
+</html>

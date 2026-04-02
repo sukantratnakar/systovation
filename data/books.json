@@ -1,0 +1,726 @@
+{
+  "books": [
+    {
+      "id": "enigma-questions",
+      "title": "Enigma - The Book of Questions",
+      "slug": "enigma-questions",
+      "author": "20 Thought Leaders",
+      "authorId": "collective",
+      "genre": "Business",
+      "description": "One hundred questions. Twenty thought leaders. Zero answers. That's the premise of Enigma, and it works precisely because it refuses to tell you what to think. Instead, the book invites you into inquiry — the kind of wondering that has no finish line. Questions about life, purpose, existence, connection. Some will hit you immediately; others will sneak up on you later. The format is beautiful, with each question given space to breathe. Use it for journaling prompts, dinner conversations, or just moments of private reflection. Enigma isn't meant to be solved. It's meant to be lived with.",
+      "cover": "https://online.anyflip.com/eqoah/mcyn/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/mcyn",
+      "featured": true,
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "warthog",
+      "title": "I'm More Than Just A Warthog",
+      "slug": "im-more-than-just-a-warthog",
+      "author": "Tanya Eklund",
+      "authorId": "tanya-eklund",
+      "genre": "Children",
+      "description": "Wanda the warthog is nervous. It's her first day at a new school in the Mombo Jungle, and she's not like the other animals. They notice. They tease. Wanda wants to disappear. But through small acts of courage and unexpected friendships, she discovers that being different isn't a weakness — it's what makes her special. Tanya Eklund has written a warm, wise story that kids will ask for again and again. The message about self-acceptance is woven naturally into the adventure, never feeling preachy. Beautiful illustrations bring the jungle to life. Perfect for children ages 4-8 who are learning that they're enough exactly as they are.",
+      "cover": "https://online.anyflip.com/eqoah/pmjq/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/pmjq",
+      "featured": true,
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "omnimeta-mindfulness",
+      "title": "OmniMeta Mindfulness",
+      "slug": "omnimeta-mindfulness",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Personal Development",
+      "description": "Your daily toolkit for staying sharp without burning out. OmniMeta Mindfulness takes the big ideas from Sukant's work — white space thinking, energy management, the BOSE framework — and distills them into something you can use every morning. Think of it as a field guide for your mind. Each section addresses a different dimension: body, occupation, social, ego. The approach is practical, not preachy. No incense required. Just clear techniques for managing your mental state throughout the day. Keep it on your desk or in your bag. When things get overwhelming, flip to any page and find something useful.",
+      "cover": "https://online.anyflip.com/eqoah/fynv/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/fynv",
+      "featured": true,
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "tinergy-workshop",
+      "title": "Workshop | Tinergy Management System",
+      "slug": "tinergy-workshop",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Business",
+      "description": "This is the hands-on companion to the Tinergy framework. Designed for workshop facilitators and HR professionals, it includes assessments, exercises, and discussion guides for bringing Time + Energy management into organizations. But even if you're working alone, the materials are useful. You'll find templates for tracking your energy patterns, frameworks for identifying drains and gains, and strategies for building sustainable routines. More structured than the Reflections book, this is for people ready to implement real changes. Sukant's consulting experience shows — the content is practical, tested, and designed to create measurable results.",
+      "cover": "https://online.anyflip.com/eqoah/uxsb/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/uxsb",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "shallots-indus-cafe",
+      "title": "Quantraz Shallots SH20 - Indus Cafe",
+      "slug": "shallots-indus-cafe",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Photography",
+      "description": "The Shallots series captures moments — visual pauses for busy minds. This edition features photography from Indus Cafe, a place where food and culture intersect. Anshu Bhatnagar's camera finds beauty in the everyday: steam rising from a cup, hands breaking bread, the geometry of a well-set table. It's a coffee table book in the truest sense — meant to be there when you need a moment of calm. Flip to any page, let your eyes rest, and feel your shoulders drop. The Quantraz philosophy applied to visual storytelling: sometimes you don't need words, you need space.",
+      "cover": "https://online.anyflip.com/eqoah/omlf/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/omlf",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "shallots-wendy-quan",
+      "title": "Quantraz Shallots SH18 by Wendy Quan",
+      "slug": "shallots-wendy-quan",
+      "author": "Wendy Quan",
+      "authorId": "wendy-quan",
+      "genre": "Photography",
+      "description": "Wendy Quan brings her mindfulness expertise to the Shallots series, and it shows. This visual meditation book pairs calming imagery with her understanding of how we actually relax — not through trying harder, but through letting go. Each spread is designed to slow your breathing and quiet your mind. No instructions, no exercises, just beauty doing what beauty does. Keep it where you'll see it. Let it interrupt your busy day. Wendy knows that peace isn't something you achieve; it's something you allow. This book creates the conditions for allowing.",
+      "cover": "https://online.anyflip.com/eqoah/ylog/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/ylog",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "shallots-hans-25",
+      "title": "Quantraz Shallots SH25 - Dr Hans Erlings",
+      "slug": "shallots-hans-25",
+      "author": "Dr Hans Erlings",
+      "authorId": "hans-erlings",
+      "genre": "Photography",
+      "description": "Dr. Hans Erlings contributes to the Shallots visual meditation series with his characteristic depth. SH25 draws on his understanding of human performance and resilience, translated into images that ground and center. The photographs aren't random — they're chosen to trigger specific states: calm, focus, clarity. It's neuroscience made beautiful. Whether you're preparing for a difficult conversation or recovering from one, these pages offer a reset. Part of the larger Quantraz ecosystem of tools for thinking better and feeling more yourself.",
+      "cover": "https://online.anyflip.com/eqoah/mgim/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/mgim",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "shallots-hans-26",
+      "title": "Quantraz Shallots SH26 - Dr Hans Erlings",
+      "slug": "shallots-hans-26",
+      "author": "Dr Hans Erlings",
+      "authorId": "hans-erlings",
+      "genre": "Photography",
+      "description": "The follow-up to SH25, this Shallots edition continues Dr. Hans Erlings' visual exploration of calm under pressure. New images, same intention: give your overworked mind somewhere to rest. Hans brings his background in high-stakes environments to bear — he knows what real stress looks like and what actually helps. These aren't generic relaxation pictures; they're carefully selected moments designed to shift your state. Use it before meetings, after long days, whenever you need to come back to yourself.",
+      "cover": "https://online.anyflip.com/eqoah/wzgv/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/wzgv",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "transformation-crisis",
+      "title": "Transformation in Times of Crisis",
+      "slug": "transformation-crisis",
+      "author": "Nitin Rakesh",
+      "authorId": "nitin-rakesh",
+      "genre": "Business",
+      "description": "When everything falls apart, leaders face a choice: survive or transform. Nitin Rakesh (CEO of Mphasis) and Jerry Wind (Wharton professor) wrote this book during one of the most turbulent periods in recent history, and it shows. The insights are hard-won, drawn from real decisions made under real pressure. They argue that crisis isn't just something to get through — it's an opportunity to become something better. The book combines academic research with frontline experience, offering both frameworks and stories. Essential reading for anyone leading through uncertainty. You'll come away with practical tools and, more importantly, a different way of seeing disruption.",
+      "cover": "https://online.anyflip.com/eqoah/xcnb/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/xcnb",
+      "featured": true,
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "shallots-jamie-clarke",
+      "title": "Quantraz Shallots SH14 - Jamie Clarke",
+      "slug": "shallots-jamie-clarke",
+      "author": "Jamie Clarke",
+      "authorId": "jamie-clarke",
+      "genre": "Photography",
+      "description": "Jamie Clarke has seen things most of us only imagine — Everest summits, desert crossings, the edge of human endurance. His Shallots contribution brings that perspective to the page. The images aren't all mountains and adventure; some are quiet, intimate, surprisingly ordinary. That's the point. Jamie knows that the skills you need in extreme environments are the same ones you need in everyday life: presence, patience, the ability to find calm when everything's chaos. A visual meditation from someone who's lived it.",
+      "cover": "https://online.anyflip.com/eqoah/teng/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/teng",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "white-space-2",
+      "title": "White Space Thinking Vol 2",
+      "slug": "white-space-2",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Philosophy",
+      "description": "The second volume goes deeper into the practice of white space thinking. Sukant shares more techniques for clearing mental clutter, but also addresses the resistance we feel to doing nothing. Why is it so hard to sit still? Why do we feel guilty when we're not productive? These questions get real answers here, along with stories from people who've transformed their work and lives by embracing intentional pause. The book also covers how to design environments — physical and digital — that support clearer thinking. More advanced than volume one, but still accessible. Essential reading for anyone serious about sustainable performance.",
+      "cover": "https://online.anyflip.com/eqoah/wchl/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/wchl",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "quantraz-8",
+      "title": "Quantraz 8.0",
+      "slug": "quantraz-8",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Philosophy",
+      "description": "The latest in the series, and perhaps the most refined. Quantraz 8.0 weaves together everything Sukant has been exploring: white space thinking, energy management, the search for meaning. The result feels complete, like arriving somewhere after a long journey. Each page offers a moment of calibration — a chance to check in with yourself and ask the important questions. The collaboration with designers and illustrators throughout the series culminates here in something truly beautiful. Whether this is your first Quantraz or your eighth, you'll find what you need: space to think, permission to pause, and gentle reminders of what matters.",
+      "cover": "https://online.anyflip.com/eqoah/oplf/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/oplf",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "quantraz-7",
+      "title": "Quantraz 7.0",
+      "slug": "quantraz-7",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Philosophy",
+      "description": "The seventh Quantraz tackles artificial intelligence head-on. Not with predictions about robots taking over, but with genuine questions about what intelligence means and whether enlightenment is still possible when we're so connected to our devices. Sukant doesn't pretend to have all the answers — that's what makes this book honest. The imagery is modern, sleek, matching the theme of technology while maintaining that meditative quality the series is known for. It's a book for anyone wondering how to stay human in an increasingly digital world. No judgment, no fear-mongering, just thoughtful exploration.",
+      "cover": "https://online.anyflip.com/eqoah/rivy/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/rivy",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "quantraz-6",
+      "title": "Quantraz 6.0",
+      "slug": "quantraz-6",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Philosophy",
+      "description": "Silent moments. That's the heart of this sixth volume. Sukant explores what happens when we actually stop — not just physically, but mentally. When we let our minds defragment like an old computer clearing its cache. The metaphor works because it's honest about how cluttered our heads have become. Beautiful illustrations by Jon Klassen accompany reflections on stillness, patience, and the art of waiting. This isn't about being passive; it's about being intentional with your silence. The book is slim but substantial, each page earning its place. A perfect gift for someone who needs permission to slow down.",
+      "cover": "https://online.anyflip.com/eqoah/dfbm/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/dfbm",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "quantraz-5",
+      "title": "Quantraz 5.0",
+      "slug": "quantraz-5",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Philosophy",
+      "description": "This volume focuses on what Sukant calls 'white space' — those moments between thoughts where real clarity lives. We're so used to filling every gap with something: checking phones, making lists, planning ahead. Quantraz 5.0 makes the case for doing less. For letting your mind wander. For trusting that solutions emerge when you stop forcing them. The illustrations by Vinita Chand bring a playfulness to these ideas, balancing the deeper themes with moments of lightness. It's a gentle book, not preachy, just offering a different way to think about productivity and peace. Sometimes the most important thing you can do is nothing at all.",
+      "cover": "https://online.anyflip.com/eqoah/recv/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/recv",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "quantraz-4",
+      "title": "Quantraz 4.0",
+      "slug": "quantraz-4",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Philosophy",
+      "description": "By the fourth volume, the Quantraz series has hit its stride. Sukant digs deeper into the relationship between humans and machines — not with fear, but with curiosity. What parts of us can never be replicated by AI? What does it mean to be conscious? These aren't abstract questions here; they're explored through images and words that feel immediate and personal. The design remains beautiful, the kind of book that looks good on a shelf and better in your hands. Whether you've read the earlier volumes or are starting here, you'll find something that resonates. It's philosophy made accessible, wisdom made visual.",
+      "cover": "https://online.anyflip.com/eqoah/bggk/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/bggk",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "quantraz-3",
+      "title": "Quantraz 3.0",
+      "slug": "quantraz-3",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Philosophy",
+      "description": "Volume three brings wildlife photographer Jagdeep Rajput into the mix, and the result is stunning. His images of nature — raw, beautiful, often unexpected — pair perfectly with Sukant's reflections on consciousness and purpose. There's something grounding about seeing a bird in flight or a tiger at rest alongside words about the human condition. It reminds you that we're part of something bigger. This book works on multiple levels: as art, as philosophy, as a prompt for your own thinking. Each spread is carefully composed to create a moment of stillness. In a world that never stops demanding your attention, Quantraz 3.0 offers a quiet invitation to just be.",
+      "cover": "https://online.anyflip.com/eqoah/qrey/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/qrey",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "quantraz-2",
+      "title": "Quantraz 2.0",
+      "slug": "quantraz-2",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Philosophy",
+      "description": "The second book in the Quantraz series picks up where the first left off, but goes deeper. Sukant continues exploring what it means to seek enlightenment in an age of artificial intelligence and constant connectivity. The photography by Anshu Bhatnagar adds another layer — images that don't just illustrate the text but carry their own weight. This isn't a book you read in one sitting. It's meant to be savored, a page or two at a time, maybe with your morning coffee or before bed. The questions it raises stay with you: What makes us human? Where do we find peace? How do we grow when everything around us keeps changing?",
+      "cover": "https://online.anyflip.com/eqoah/ynjs/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/ynjs",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "quantraz-1",
+      "title": "Quantraz 1.0",
+      "slug": "quantraz-1",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Philosophy",
+      "description": "This is where the Quantraz journey begins. Sukant Ratnakar created something different here — not quite a traditional book, more like a visual meditation. Each page pairs striking imagery with thoughts that make you pause. The theme running through it all? How do we find clarity and meaning when we're surrounded by screens, notifications, and the constant hum of technology? It's the kind of book you keep on your coffee table and flip through when you need a mental reset. No chapters to follow, no linear story — just moments of reflection designed to help you breathe a little easier and think a little clearer. Perfect for anyone feeling overwhelmed by the pace of modern life.",
+      "cover": "https://online.anyflip.com/eqoah/nznq/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/nznq",
+      "featured": true,
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "tinergy-reflections",
+      "title": "Tinergy Reflections TZ 4.1",
+      "slug": "tinergy-reflections",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Personal Development",
+      "description": "We manage time obsessively but ignore energy almost completely. Sukant's Tinergy framework flips that. The core idea: time is fixed, but energy is flexible. This book is a collection of reflections on that theme — not a step-by-step manual, but a space for thinking about how you're spending yourself. Each page prompts a different question: Where does your energy go? What drains you? What fills you up? The format mirrors the content: meant to be consumed in small doses, not rushed through. Perfect for executives, parents, creatives, or anyone who ends the day exhausted and wonders where it all went.",
+      "cover": "https://online.anyflip.com/eqoah/ukth/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/ukth",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "zero",
+      "title": "Zero - Before and After Singularity",
+      "slug": "zero",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Philosophy",
+      "description": "What happens when artificial intelligence becomes smarter than humans? It's called the singularity, and it might be closer than we think. Sukant Ratnakar doesn't approach this topic with dystopian dread or utopian hype. Instead, he asks honest questions: What does it mean to be at point zero, the moment before everything changes? How do we prepare? What remains uniquely human? The book blends philosophy with practical thinking, making a complex topic feel personal. It's not a tech manual or a sci-fi novel — it's a meditation on change itself. Whether the singularity comes in ten years or a hundred, the questions raised here will stay relevant.",
+      "cover": "https://online.anyflip.com/eqoah/yxku/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/yxku",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "ikentics",
+      "title": "iKentics - The Science of Ideas",
+      "slug": "ikentics",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Business",
+      "description": "Ideas have energy. Sukant calls it kinetic — the potential to move, to create change, to build something new. iKentics explores where ideas come from, why some take off while others die, and how to increase the energy behind your own thinking. It's part science, part philosophy, part practical guide. Drawing on physics, psychology, and two decades of consulting experience, Sukant makes the abstract feel concrete. The book includes exercises for capturing ideas, nurturing them, and knowing when to let them go. Whether you're an entrepreneur, a creative, or someone who just wants to think better, iKentics offers a fresh lens on innovation.",
+      "cover": "https://online.anyflip.com/eqoah/vnrg/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/vnrg",
+      "featured": true,
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "white-space-1",
+      "title": "White Space Thinking Vol 1",
+      "slug": "white-space-1",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Philosophy",
+      "description": "We've all heard about thinking outside the box. Sukant Ratnakar suggests something different: what about the space between thoughts? White Space Thinking explores why our best ideas often come when we're not trying — in the shower, on a walk, just before sleep. The book offers a framework for creating more of these moments intentionally. It's not about working less; it's about working smarter by building in genuine mental breaks. Sukant draws on neuroscience, productivity research, and his own experience consulting with executives worldwide. The writing is clear and practical, with exercises you can actually use. If you've ever felt that being busy isn't the same as being effective, this book is for you.",
+      "cover": "https://online.anyflip.com/eqoah/guev/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/guev",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "systovation-evolution",
+      "title": "Systovation Evolution Ecosystem",
+      "slug": "systovation-evolution",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Business",
+      "description": "What if organizations could evolve the way species do — naturally, continuously, without the trauma of change management? That's the vision behind Systovation. Sukant Ratnakar lays out a framework for building evolution into your company's DNA. It's not about one big transformation; it's about creating systems that adapt and improve organically. The book draws on biology, complexity science, and decades of consulting work with companies worldwide. Heavy on concepts but readable, with practical applications for leaders tired of constant reorganization. A different way of thinking about how organizations grow and change.",
+      "cover": "https://online.anyflip.com/eqoah/dglz/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/dglz",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "the-flip-effect",
+      "title": "THE FLIP EFFECT",
+      "slug": "the-flip-effect",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Personal Development",
+      "description": "Most of us wait for big moments to make big changes. Sukant Ratnakar argues we've got it backwards. The Flip Effect is about small moves — tiny shifts in habit, perspective, or approach — that cascade into major transformations. One conversation. One decision. One flip. The book is filled with examples of how minor adjustments have led to breakthroughs in business, relationships, and personal growth. It's not about motivation or willpower; it's about recognizing the leverage points that already exist in your life. Practical, readable, and surprisingly fun. You'll start seeing flip opportunities everywhere once you understand the concept.",
+      "cover": "/assets/books/flip-effect.jpg",
+      "badge": "New",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "shallots-enta",
+      "title": "Shallots: Enta Solution",
+      "slug": "shallots-enta",
+      "author": "Enta Solutions",
+      "authorId": "enta-solutions",
+      "genre": "Business",
+      "description": "A Shallots edition created in collaboration with Enta Solutions. This visual meditation book blends business context with the calming aesthetic the series is known for. It's a corporate gift that's actually useful — not another branded item destined for a drawer, but something people will keep on their desks and actually look at. The Quantraz approach to corporate wellness: subtle, beautiful, effective. Each page offers a brief escape from screens and deadlines, a reminder that you're human first and professional second.",
+      "cover": "https://online.anyflip.com/eqoah/fmpi/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/fmpi",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "pushkarnama",
+      "title": "Pushkarnama",
+      "slug": "pushkarnama",
+      "author": "Anshu Bhatnagar",
+      "authorId": "anshu-bhatnagar",
+      "genre": "Photography",
+      "description": "Pushkar is one of India's holiest cities — a place of pilgrims, camels, temples, and ghats leading down to a sacred lake. Anshu Bhatnagar spent years capturing its essence, and this coffee table book is the result. The photographs are stunning: early morning light on the lake, the chaos of the annual camel fair, quiet moments of devotion. But Pushkarnama is more than pretty pictures. Each image tells a story about tradition, faith, and the intersection of the ancient and modern. Keep it where guests can flip through it. The conversations it starts are half the pleasure.",
+      "cover": "https://online.anyflip.com/eqoah/okla/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/okla",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "pushkar-dhami-vision",
+      "title": "Pushkar Singh Dhami - Vision 2025",
+      "slug": "dhami-vision-2025",
+      "author": "Anshu Bhatnagar",
+      "authorId": "anshu-bhatnagar",
+      "genre": "Government",
+      "description": "A coffee table book documenting the vision of Pushkar Singh Dhami, Chief Minister of Uttarakhand. This isn't political propaganda — it's documentation. What does a leader see when they look at their state? What do they hope it becomes? Anshu Bhatnagar's photography captures Uttarakhand's beauty alongside the challenges of governance in a mountainous region. The book serves as both record and aspiration, showing where things are and where they could go. Commissioned work that rises above the genre.",
+      "cover": "https://online.anyflip.com/eqoah/uybq/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/uybq",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "awwa",
+      "title": "Army Wives Welfare Association",
+      "slug": "awwa",
+      "author": "AWWA",
+      "authorId": "awwa",
+      "genre": "Government",
+      "description": "The Army Wives Welfare Association 2023 coffee table book honors the women who serve alongside those in uniform. Military families sacrifice in ways that rarely make headlines — constant moves, long separations, the particular stress of loving someone in harm's way. This book makes that invisible labor visible. Through photographs and profiles, it celebrates resilience, community, and the strength it takes to build a home on uncertain ground. A tribute to women who hold everything together.",
+      "cover": "https://online.anyflip.com/eqoah/bqqn/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/bqqn",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "quantraz-corporate",
+      "title": "Quantraz - The Evolution Company",
+      "slug": "quantraz-corporate",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Business",
+      "description": "The Quantraz corporate presentation, designed for organizations curious about the evolution ecosystem. This isn't a typical deck; it's a visual introduction to how Quantraz thinks about change, growth, and transformation. Clean design, clear concepts, the kind of materials that make conversations easier. Use it to introduce Quantraz to your team or to understand what an engagement might look like. Business development materials that don't feel like business development materials.",
+      "cover": "https://online.anyflip.com/eqoah/gsee/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/gsee",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "singularity",
+      "title": "Singularity - The Evolution Game",
+      "slug": "singularity",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Business",
+      "description": "The Evolution Game. Sukant Ratnakar presents a strategic framework for navigating the path toward technological singularity. It's game-like in the best sense — clear rules, defined moves, but infinite complexity in execution. How do you position yourself (or your organization) for a future that's radically uncertain? Singularity offers a way of thinking about that question without pretending to know the answers. For strategists, futurists, and anyone who takes long-term thinking seriously.",
+      "cover": "https://online.anyflip.com/eqoah/dmeb/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/dmeb",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "indians-of-saskatoon",
+      "title": "Indians of Saskatoon",
+      "slug": "indians-of-saskatoon",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Community",
+      "description": "A love letter to a community. Indians of Saskatoon captures the stories, faces, and contributions of the Indian diaspora in this prairie city. Through profiles and photographs, the book documents how immigrants and their families have enriched Saskatoon — starting businesses, building institutions, raising children, becoming neighbors. It's part history, part celebration, part family album for an entire community. Sukant created this because these stories matter and too often go untold. Whether you're part of this community or simply curious about it, you'll find something moving here. A beautiful reminder that diversity is strength.",
+      "cover": "https://online.anyflip.com/eqoah/elju/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/elju",
+      "featured": true,
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "we-have-just-arrived",
+      "title": "We Have Just Arrived",
+      "slug": "we-have-just-arrived",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Community",
+      "description": "Immigration is about leaving everything you know and starting over. This book collects those stories — raw, honest, sometimes difficult. People share what they left behind, what they found, and what they're still looking for. The phrase 'we have just arrived' captures that perpetual feeling of newness that immigrants carry, sometimes for decades. Sukant's approach is documentary, letting people speak in their own voices without too much editorial polish. The result is authentic and moving. Required reading for anyone who wants to understand the immigrant experience beyond statistics and politics.",
+      "cover": "https://online.anyflip.com/eqoah/zmqa/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/zmqa",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "qudo-user-guide",
+      "title": "QUDO User Guide",
+      "slug": "qudo-user-guide",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Technology",
+      "description": "QUDO is the digital platform that brings Sukant's Tinergy framework to life. This user guide walks you through everything: setting up your profile, tracking energy across life domains, understanding the patterns that emerge. It's practical, step-by-step, designed for people who want results without a steep learning curve. Screenshots, tips, and explanations that assume you're smart but busy. Whether you're using QUDO for personal development or rolling it out to a team, this guide gets you there faster.",
+      "cover": "https://online.anyflip.com/eqoah/zzhj/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/zzhj",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "qudo-intro",
+      "title": "QUDO Introduction",
+      "slug": "qudo-intro",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Technology",
+      "description": "Not sure if QUDO is for you? This introduction explains the why before the how. What's the problem QUDO solves? How does tracking energy differ from tracking time? What can you actually expect if you commit to the platform? The intro is honest about what QUDO is and isn't — it won't magically fix your life, but it will give you better data about how you're spending yourself. For skeptics and curious minds who need to understand before they commit.",
+      "cover": "https://online.anyflip.com/eqoah/tjrr/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/tjrr",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "marten",
+      "title": "MQ01SH08 - Marten",
+      "slug": "marten",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Photography",
+      "description": "A Quantraz Shallots edition created for Marten. Like all Shallots, it's a visual meditation — a collection of images designed to calm and center. The corporate partnership brings these materials to a specific audience while maintaining the quality and intention the series is known for. Beautiful enough to keep, useful enough to return to. A gift that keeps giving, one mindful moment at a time.",
+      "cover": "https://online.anyflip.com/eqoah/egbb/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/egbb",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "homeguards-uttarakhand",
+      "title": "Homeguards of Uttarakhand",
+      "slug": "homeguards-uttarakhand",
+      "author": "Anshu Bhatnagar",
+      "authorId": "anshu-bhatnagar",
+      "genre": "Government",
+      "description": "A coffee table tribute to the Homeguards of Uttarakhand — the men and women who protect and serve in India's mountain state. Anshu Bhatnagar's photography captures both the grandeur of the landscape and the humanity of those who patrol it. It's easy to overlook the people who keep things running, especially in remote regions. This book refuses to overlook them. Each page is a reminder that safety isn't automatic; it's the result of people showing up, day after day, doing difficult work.",
+      "cover": "https://online.anyflip.com/eqoah/nunw/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/nunw",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "gst",
+      "title": "GST",
+      "slug": "gst",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Business",
+      "description": "When India rolled out the Goods and Services Tax, it was one of the largest tax reforms in history. This coffee table book documents that transformation — not the policy debates, but the human story. The businesses adapting, the officials implementing, the systems coming online. It's economic history told through photographs and thoughtful design. A record of change at scale. Whether you were directly involved in GST implementation or simply lived through it, this book captures a moment that changed how a billion people do business.",
+      "cover": "https://online.anyflip.com/eqoah/pbao/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/pbao",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "look-beyond",
+      "title": "Look Beyond",
+      "slug": "look-beyond",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Philosophy",
+      "description": "Part of the Quintessential Series, this book is about perspective — specifically, how changing yours can change everything. Sukant uses visual metaphors and real-world examples to show how we get stuck seeing things one way and miss what's right in front of us. The 'look beyond' principle applies everywhere: business strategy, personal relationships, creative work. It's not about optimism or positive thinking; it's about expanding what you're able to see. The book is beautifully designed, with images that complement the text and occasionally surprise you. A quick read with lasting impact. You'll catch yourself thinking about it long after you've finished.",
+      "cover": "https://online.anyflip.com/eqoah/ateh/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/ateh",
+      "featured": true,
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "community-connect-2",
+      "title": "Community Connect Volume 2",
+      "slug": "community-connect-2",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Community",
+      "description": "Community Connect is Sukant's neighborhood newsletter, and this second volume continues the tradition. Local news, event recaps, profiles of neighbors doing interesting things. It sounds simple because it is — but that's the point. Strong communities are built on knowing each other's names and stories. This newsletter makes that happen in Willowridge. If you live there, it's your newsletter. If you don't, it's a model for what community media can be.",
+      "cover": "https://online.anyflip.com/eqoah/mvgl/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/mvgl",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "community-connect-oct25",
+      "title": "Community Connect - Oct 2025",
+      "slug": "community-connect-oct25",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Community",
+      "description": "The October 2025 edition of Community Connect. What's happening in Willowridge? Who's new? What events are coming up? It's hyper-local journalism in the best sense: the stuff that matters most to the people who live somewhere specific. Sukant started this because he believes neighbors should know each other, and a newsletter is one way to make that happen. Proof that media doesn't have to be big to be meaningful.",
+      "cover": "https://online.anyflip.com/eqoah/rbrx/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/rbrx",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    },
+    {
+      "id": "qudo-4x",
+      "title": "QUDO - 4X Energy System",
+      "slug": "qudo-4x",
+      "author": "Sukant Ratnakar",
+      "authorId": "sukant-ratnakar",
+      "genre": "Personal Development",
+      "description": "The 4X Energy System is the engine behind QUDO — four dimensions of energy that need to be managed for sustainable high performance. This guide goes deep on each dimension: what it means, how to measure it, and what to do when it's low. It's the theory made practical, with exercises and assessments you can use immediately. If you've been feeling burned out despite managing your time well, the 4X system explains why and shows you what to do about it.",
+      "cover": "https://online.anyflip.com/eqoah/tvit/files/large/1.jpg",
+      "anyflipUrl": "https://anyflip.com/eqoah/tvit",
+      "buyLinks": {
+        "amazon": "",
+        "quantraz": "https://quantraz.myshopify.com"
+      },
+      "images": [],
+      "videos": []
+    }
+  ]
+}

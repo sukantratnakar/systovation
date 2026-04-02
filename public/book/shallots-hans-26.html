@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantraz Shallots SH26 - Dr Hans Erlings | Systovation Publishing</title>
+    <meta name="description" content="The follow-up to SH25, this Shallots edition continues Dr. Hans Erlings' visual exploration of calm under pressure. New images, same intention: give your overworked mind somewhere to rest. Hans brings his background in high-stakes environments to bear — he knows what real stress looks like and what actually helps. These aren't generic relaxation pictures; they're carefully selected moments designed to shift your state. Use it before meetings, after long days, whenever you need to come back to yourself.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg: #FAFAF8;
+            --bg-alt: #F5F4F0;
+            --text: #1A1A1A;
+            --text-muted: #6B7280;
+            --accent: #2D5A4A;
+            --accent-light: #3D7A6A;
+            --gold: #B8860B;
+            --border: #E5E5E3;
+            --shadow: 0 4px 20px rgba(0,0,0,0.08);
+            --radius: 12px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-weight: 500;
+            line-height: 1.2;
+        }
+
+        a { color: var(--accent); text-decoration: none; }
+        p { color: var(--text-muted); }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(250, 250, 248, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            z-index: 1000;
+            padding: 16px 0;
+        }
+
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        .logo span { color: var(--accent); }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text);
+            font-weight: 500;
+        }
+
+        /* Book Detail */
+        .book-detail {
+            padding: 140px 0 80px;
+        }
+
+        .book-detail .container {
+            display: grid;
+            grid-template-columns: 400px 1fr;
+            gap: 60px;
+            align-items: start;
+        }
+
+        .book-cover-wrapper {
+            position: sticky;
+            top: 100px;
+        }
+
+        .book-cover-3d {
+            position: relative;
+            perspective: 1000px;
+        }
+
+        .book-cover {
+            width: 100%;
+            border-radius: 4px 12px 12px 4px;
+            box-shadow: 
+                -30px 30px 60px rgba(0,0,0,0.2),
+                -10px 10px 30px rgba(0,0,0,0.15);
+            transform: rotateY(-10deg);
+            transition: transform 0.4s;
+        }
+
+        .book-cover:hover {
+            transform: rotateY(-5deg);
+        }
+
+        .book-info {
+            padding-top: 20px;
+        }
+
+        .book-meta {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+        }
+
+        .book-badge {
+            background: var(--gold);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .book-genre {
+            color: var(--accent);
+            font-weight: 500;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+        }
+
+        .book-title {
+            font-size: 2.5rem;
+            margin-bottom: 8px;
+        }
+
+        .book-author {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            margin-bottom: 24px;
+        }
+
+        .book-author a {
+            color: var(--accent);
+        }
+
+        .book-description {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 32px;
+        }
+
+        .book-stats {
+            display: flex;
+            gap: 32px;
+            padding: 24px 0;
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 32px;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .book-actions {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 16px 32px;
+            border-radius: var(--radius);
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            border: none;
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: white;
+            flex: 1;
+        }
+
+        .btn-primary:hover {
+            background: var(--accent-light);
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--text);
+            border: 2px solid var(--border);
+            flex: 1;
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        .preview-note {
+            background: var(--bg-alt);
+            padding: 16px 20px;
+            border-radius: var(--radius);
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .preview-note svg {
+            flex-shrink: 0;
+            color: var(--accent);
+        }
+
+        /* Author Section */
+        .author-section {
+            margin-top: 48px;
+            padding-top: 32px;
+            border-top: 1px solid var(--border);
+        }
+
+        .author-section h3 {
+            margin-bottom: 16px;
+        }
+
+        /* Request Modal */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 2000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s;
+        }
+
+        .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .modal {
+            background: white;
+            border-radius: var(--radius);
+            max-width: 480px;
+            width: 90%;
+            padding: 40px;
+            transform: translateY(20px);
+            transition: transform 0.3s;
+        }
+
+        .modal-overlay.active .modal {
+            transform: translateY(0);
+        }
+
+        .modal-header {
+            text-align: center;
+            margin-bottom: 24px;
+        }
+
+        .modal-header h2 {
+            margin-bottom: 8px;
+        }
+
+        .modal-header p {
+            font-size: 0.95rem;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 500;
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 14px 16px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-size: 1rem;
+            font-family: inherit;
+            transition: border-color 0.2s;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        .form-group .optional {
+            color: var(--text-muted);
+            font-weight: 400;
+        }
+
+        .modal-actions {
+            display: flex;
+            gap: 12px;
+            margin-top: 24px;
+        }
+
+        .modal-actions .btn {
+            flex: 1;
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--text-muted);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--text);
+            color: var(--bg);
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        footer a { color: rgba(255,255,255,0.7); }
+
+        @media (max-width: 900px) {
+            .book-detail .container {
+                grid-template-columns: 1fr;
+            }
+
+            .book-cover-wrapper {
+                position: relative;
+                top: 0;
+                max-width: 300px;
+                margin: 0 auto;
+            }
+
+            .book-cover {
+                transform: none;
+            }
+
+            .nav-links { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="/" class="logo">Systo<span>vation</span></a>
+            <ul class="nav-links">
+                <li><a href="/books.html">Books</a></li>
+                <li><a href="/#about">About</a></li>
+                <li><a href="/#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Book Detail -->
+    <section class="book-detail">
+        <div class="container">
+            <div class="book-cover-wrapper">
+                <div class="book-cover-3d">
+                    <img src="https://online.anyflip.com/eqoah/wzgv/files/large/1.jpg" alt="Quantraz Shallots SH26 - Dr Hans Erlings" class="book-cover"
+                         onerror="this.src='https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400&h=560&fit=crop'">
+                </div>
+            </div>
+
+            <div class="book-info">
+                <div class="book-meta">
+                    <span class="book-genre">Photography</span>
+                    <!-- {{#BADGE}}<span class="book-badge"></span>{{/BADGE}} -->
+                </div>
+
+                <h1 class="book-title">Quantraz Shallots SH26 - Dr Hans Erlings</h1>
+                <p class="book-author">by <a href="#">Dr Hans Erlings</a></p>
+
+                <p class="book-description">The follow-up to SH25, this Shallots edition continues Dr. Hans Erlings' visual exploration of calm under pressure. New images, same intention: give your overworked mind somewhere to rest. Hans brings his background in high-stakes environments to bear — he knows what real stress looks like and what actually helps. These aren't generic relaxation pictures; they're carefully selected moments designed to shift your state. Use it before meetings, after long days, whenever you need to come back to yourself.</p>
+
+                <div class="book-stats">
+                    <div class="stat">
+                        <div class="stat-value">—</div>
+                        <div class="stat-label">Pages</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">10</div>
+                        <div class="stat-label">Free Preview</div>
+                    </div>
+                </div>
+
+                <div class="book-actions">
+                    <button class="btn btn-primary" onclick="openRequestModal()">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                        </svg>
+                        Read Preview
+                    </button>
+                    <a href="#" class="btn btn-secondary" target="_blank">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="9" cy="21" r="1"></circle>
+                            <circle cx="20" cy="21" r="1"></circle>
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                        </svg>
+                        Buy Now
+                    </a>
+                </div>
+
+                <div class="preview-note">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M12 16v-4"></path>
+                        <path d="M12 8h.01"></path>
+                    </svg>
+                    <span>Preview the first 10 pages free. Enter your details to unlock the preview reader.</span>
+                </div>
+
+                <div class="author-section">
+                    <h3>About the Author</h3>
+                    <p>Bio coming soon.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Request Modal -->
+    <div class="modal-overlay" id="requestModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h2>Read Preview</h2>
+                <p>Enter your details to access the free preview of <strong>Quantraz Shallots SH26 - Dr Hans Erlings</strong></p>
+            </div>
+            
+            <form id="requestForm" onsubmit="submitRequest(event)">
+                <div class="form-group">
+                    <label for="name">Your Name *</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required placeholder="you@example.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone <span class="optional">(optional)</span></label>
+                    <input type="tel" id="phone" name="phone" placeholder="Your phone number">
+                </div>
+
+                <div class="modal-actions">
+                    <button type="button" class="btn btn-secondary" onclick="closeRequestModal()">Cancel</button>
+                    <button type="submit" class="btn btn-primary">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                        </svg>
+                        Start Reading
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Systovation Publishing. <a href="/books.html">Back to Books</a></p>
+        </div>
+    </footer>
+
+    <script>
+        const bookSlug = 'shallots-hans-26';
+        
+        function openRequestModal() {
+            document.getElementById('requestModal').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+        
+        function closeRequestModal() {
+            document.getElementById('requestModal').classList.remove('active');
+            document.body.style.overflow = '';
+        }
+        
+        async function submitRequest(e) {
+            e.preventDefault();
+            
+            const form = e.target;
+            const data = {
+                name: form.name.value,
+                email: form.email.value,
+                phone: form.phone.value,
+                book: bookSlug,
+                timestamp: new Date().toISOString()
+            };
+            
+            try {
+                // Save lead data (would normally go to API)
+                const leads = JSON.parse(localStorage.getItem('systovation_leads') || '[]');
+                leads.push(data);
+                localStorage.setItem('systovation_leads', JSON.stringify(leads));
+                
+                // Also send to server if available
+                try {
+                    await fetch('/api/lead', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(data)
+                    });
+                } catch (e) {
+                    // Server not available, that's fine - we saved locally
+                }
+                
+                // Redirect to flipbook reader
+                window.location.href = `/reader/${bookSlug}.html`;
+                
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Something went wrong. Please try again.');
+            }
+        }
+        
+        // Close modal on escape or click outside
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeRequestModal();
+        });
+        
+        document.getElementById('requestModal').addEventListener('click', (e) => {
+            if (e.target === e.currentTarget) closeRequestModal();
+        });
+    </script>
+</body>
+</html>

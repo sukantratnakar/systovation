@@ -1,0 +1,199 @@
+{
+  "authors": [
+    {
+      "id": "sukant-ratnakar",
+      "name": "Sukant Ratnakar",
+      "slug": "sukant-ratnakar",
+      "role": "Founder & Publisher",
+      "bio": "Sukant Ratnakar has been thinking about how people and organizations evolve for over twenty years. He's written more than thirty books on topics ranging from mindfulness to management, but they all circle back to the same question: how do we grow without losing ourselves? He founded Systovation Publishing because he believes executives have wisdom worth sharing and deserve help getting it onto paper. When he's not writing or consulting, you'll find him in Saskatoon, Canada, probably working on the next Quantraz book.",
+      "photo": "/assets/authors/sukant-ratnakar.jpg",
+      "books": [
+        "still-here",
+        "quantraz-force-within",
+        "quantraz-3",
+        "quantraz-6",
+        "i-knetix",
+        "kinetic-energy-ideas"
+      ],
+      "social": {
+        "linkedin": "https://linkedin.com/in/sukantratnakar",
+        "website": "https://sukantratnakar.com"
+      },
+      "featured": true
+    },
+    {
+      "id": "chris-black",
+      "name": "Chris Black",
+      "slug": "chris-black",
+      "role": "Leadership Author",
+      "bio": "Chris Black helps leaders figure out what AI means for their businesses — and their careers. His book CUSTODIAN came from watching executives struggle with a simple question: am I going to be replaced? His answer is more nuanced than 'yes' or 'no,' which is what makes his work valuable. Chris speaks at conferences, advises companies, and actually reads the research papers everyone else just skims. He's practical, direct, and allergic to buzzwords.",
+      "photo": "/assets/authors/chris-black.jpg",
+      "books": [
+        "custodian"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ryan-myers",
+      "name": "Ryan Myers",
+      "slug": "ryan-myers",
+      "role": "Author & Coach",
+      "bio": "Ryan Myers writes about the stuff most people avoid thinking about: who we really are, what we actually want, and why we keep getting in our own way. His book One Match, One Brick, One Life is about building a life through small, intentional acts rather than waiting for big moments. Ryan's not preachy about it — he's still figuring things out himself and doesn't pretend otherwise. His readers appreciate the honesty.",
+      "photo": "/assets/authors/ryan-myers.jpg",
+      "books": [
+        "one-match-one-brick-one-life"
+      ],
+      "featured": true
+    },
+    {
+      "id": "tanya-eklund",
+      "name": "Tanya Eklund",
+      "slug": "tanya-eklund",
+      "role": "Children's Author",
+      "bio": "Tanya Eklund is a real estate professional in Calgary who writes children's books on the side — which sounds like an odd combination until you realize both jobs are about helping people find where they belong. Her first book, I'm More Than Just A Warthog, came from watching her own kids navigate the challenges of being different. She wanted to give them (and other children) a story that says: you're enough, exactly as you are.",
+      "photo": "/assets/authors/tanya-eklund.jpg",
+      "books": [
+        "warthog"
+      ],
+      "featured": false
+    },
+    {
+      "id": "nitin-rakesh",
+      "name": "Nitin Rakesh",
+      "slug": "nitin-rakesh",
+      "role": "CEO & Author",
+      "bio": "Nitin Rakesh runs Mphasis, a global tech company with tens of thousands of employees. But he's not your typical CEO — he actually thinks about the human side of business and isn't afraid to admit when things are hard. His book with Jerry Wind came from leading through genuine crisis and learning in real-time. He has a Wharton MBA, but he's more interesting than that makes him sound. His writing is surprisingly accessible for someone at his level.",
+      "photo": "/assets/authors/nitin-rakesh.jpg",
+      "books": [],
+      "featured": false,
+      "social": {
+        "linkedin": "https://linkedin.com/in/nitinrakesh"
+      }
+    },
+    {
+      "id": "dr-hans-erlings",
+      "name": "Dr. Hans Erlings",
+      "slug": "dr-hans-erlings",
+      "role": "Safety & Leadership Expert",
+      "bio": "Dr. Hans Erlings knows about safety — real safety, the kind where people's lives depend on getting it right. His background in high-stakes industries gives his writing on leadership and resilience a weight that armchair theorists can't match. He contributed to The Kinetic Energy of Ideas and the Quantraz Shallots series, bringing practical wisdom about risk, responsibility, and human performance under pressure.",
+      "photo": "/assets/authors/hans-erling.jpg",
+      "books": [
+        "kinetic-energy-ideas"
+      ],
+      "featured": false
+    },
+    {
+      "id": "jamie-clarke",
+      "name": "Jamie Clarke",
+      "slug": "jamie-clarke",
+      "role": "Adventurer & Author",
+      "bio": "Jamie Clarke has climbed Everest. Twice. He's crossed one of the most inhospitable deserts on Earth. And somehow he's not insufferable about it. Jamie speaks to companies about resilience and risk, but his real gift is making extreme experiences feel relatable. You haven't climbed a mountain, but you've faced your own versions of impossible. His Systovation contributions capture that energy — the belief that ordinary people can do extraordinary things when they commit.",
+      "photo": "/assets/authors/jamie-clarke.jpg",
+      "books": [],
+      "featured": false,
+      "social": {
+        "website": "https://jamieclarke.com"
+      }
+    },
+    {
+      "id": "wendy-quan",
+      "name": "Wendy Quan",
+      "slug": "wendy-quan",
+      "role": "Mindfulness Expert",
+      "bio": "Wendy Quan teaches people to meditate at work, which sounds awkward until you try it with her. She's the founder of The Calm Monkey and has trained thousands of professionals who thought mindfulness wasn't for them. Her approach is practical, evidence-based, and completely free of the woo-woo that puts busy people off. Her Quantraz Shallots contribution brings visual calm to the series — pages you can breathe with.",
+      "photo": "/assets/authors/wendy-quan.jpg",
+      "books": [],
+      "featured": false
+    },
+    {
+      "id": "adam-kolozetti",
+      "name": "Adam Kolozetti",
+      "slug": "adam-kolozetti",
+      "role": "Author",
+      "bio": "Author and thought leader in personal development and business transformation.",
+      "photo": "/assets/authors/adam-kolozetti.jpg",
+      "books": [],
+      "featured": false
+    },
+    {
+      "id": "kayelyn-bullock",
+      "name": "Kayelyn Bullock",
+      "slug": "kayelyn-bullock",
+      "role": "Author",
+      "bio": "Author contributing fresh perspectives on growth and transformation.",
+      "photo": "/assets/authors/kayelyn-bullock.jpg",
+      "books": [],
+      "featured": false
+    },
+    {
+      "id": "dr-ps-rathore",
+      "name": "Dr. P S Rathore",
+      "slug": "dr-ps-rathore",
+      "role": "Author",
+      "bio": "Dr. P S Rathore brings academic depth to accessible writing. His work spans philosophy and personal development, always with an eye toward making complex ideas useful. He's the kind of writer who actually reads the sources he cites and thinks carefully before putting pen to paper. Not flashy, but solid. The kind of author whose books you return to.",
+      "photo": "/assets/authors/dr-ps-rathore.jpg",
+      "books": [],
+      "featured": false
+    },
+    {
+      "id": "joseph-turner",
+      "name": "Joseph Turner",
+      "slug": "joseph-turner",
+      "role": "Creative Director",
+      "bio": "Joseph Turner is a creative director whose visual work brings ideas to life in unexpected ways. His collaboration with Systovation adds an artistic dimension that text alone couldn't achieve. Joseph thinks in images first and words second, which makes him a valuable partner for authors who know what they want to say but not quite how to show it.",
+      "photo": "/assets/authors/joseph-turner.jpg",
+      "books": [],
+      "featured": false
+    },
+    {
+      "id": "ranjit-edward",
+      "name": "Ranjit Edward",
+      "slug": "ranjit-edward",
+      "role": "Author",
+      "bio": "Ranjit Edward writes about leadership and organizational culture with one foot in Eastern philosophy and one in Western business practice. It's a balance that could feel awkward, but he makes it work. His focus is always on the human side of transformation — the messy, emotional, real stuff that business books often skip over. Worth reading if you're tired of frameworks that ignore how people actually behave.",
+      "photo": "/assets/authors/ranjit-edward.jpg",
+      "books": [],
+      "featured": false
+    },
+    {
+      "id": "adam-and-kate",
+      "name": "Adam & Kate",
+      "slug": "adam-and-kate",
+      "role": "Co-Authors",
+      "bio": "Adam and Kate write together, which is harder than it sounds. Their work focuses on personal growth and relationships, drawn from their own experience figuring things out as partners and individuals. They're honest about the messiness of growth and don't pretend to have everything figured out. That humility makes their writing trustworthy. You get the sense they're learning alongside you.",
+      "photo": "/assets/authors/adam-and-kate.jpg",
+      "books": [],
+      "featured": false
+    },
+    {
+      "id": "anshu-bhatnagar",
+      "name": "Anshu Bhatnagar",
+      "slug": "anshu-bhatnagar",
+      "role": "Photographer & Designer",
+      "bio": "Anshu Bhatnagar sees things most of us miss. His photography has documented everything from sacred cities to government initiatives, always with an eye for the story within the scene. Beyond the camera, Anshu is a designer whose work shapes how Quantraz books feel in your hands. He's the visual half of many collaborations in this catalog — the person who turns ideas into images and manuscripts into beautiful objects.",
+      "photo": "/assets/authors/anshu-bhatnagar.jpg",
+      "books": [],
+      "featured": false
+    },
+    {
+      "id": "collective",
+      "name": "Collective Authors",
+      "slug": "collective",
+      "role": "Multi-Author Works",
+      "bio": "Some books are too big for one voice. The collective works in the Systovation catalog bring together multiple authors, each contributing their expertise to a larger whole. Whether it's twenty thought leaders posing questions in Enigma or industry experts sharing perspectives, these collaborations capture wisdom that no single author could offer alone.",
+      "photo": "/assets/authors/collective.jpg",
+      "books": [],
+      "featured": false
+    },
+    {
+      "id": "sheetal-verma",
+      "name": "Sheetal Verma",
+      "slug": "sheetal-verma",
+      "role": "Artist & Media Professional",
+      "bio": "Sheetal Verma is an artist and media professional who holds a position at Nav Bharat Times, one of India's leading Hindi newspapers. Her creative sensibility and journalistic experience give her a unique perspective on storytelling — whether through visual art or the written word. She brings the same attention to detail and emotional depth to her creative projects that has made her a respected voice in Indian media.",
+      "photo": "/assets/authors/sheetal-verma.jpg",
+      "books": [],
+      "featured": false
+    }
+  ]
+}

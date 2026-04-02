@@ -1,0 +1,13 @@
+{
+  "name": "systovation",
+  "version": "1.0.0",
+  "description": "Systovation Publishing Website",
+  "scripts": {
+    "generate": "node scripts/generate-pages.js",
+    "dev": "npx serve public -p 3100",
+    "deploy": "npm run generate && echo 'Ready for Cloudflare Pages'"
+  },
+  "keywords": ["publishing", "books", "flipbook"],
+  "author": "Quantraz Inc",
+  "license": "UNLICENSED"
+}

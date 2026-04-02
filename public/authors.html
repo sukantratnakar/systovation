@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Authors | Systovation Publishing</title>
+    <meta name="description" content="Meet the authors published by Systovation. Executives, consultants, and thought leaders sharing their expertise.">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --charcoal: #2C2C2C;
+            --warm-charcoal: #3A3A3A;
+            --parchment: #F7F3EB;
+            --copper: #B87333;
+            --copper-soft: #CFA064;
+            --copper-tint: rgba(184,115,51,0.12);
+            --text-on-dark: rgba(255,255,255,0.80);
+            --text-muted-dark: rgba(255,255,255,0.40);
+            --font-display: 'Libre Baskerville', serif;
+            --font-body: 'Source Sans Pro', sans-serif;
+            --radius: 4px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: var(--font-body);
+            background: var(--charcoal);
+            color: var(--text-on-dark);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Navigation */
+        .nav {
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background: rgba(44,44,44,0.95);
+            backdrop-filter: blur(10px);
+        }
+
+        .nav-brand {
+            font-family: var(--font-display);
+            font-size: 16px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav-brand span { color: var(--copper); }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            list-style: none;
+        }
+
+        .nav-links a {
+            font-size: 11px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--text-muted-dark);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover { color: white; }
+
+        .nav-cta {
+            border: 1px solid var(--copper-tint);
+            padding: 8px 20px;
+            color: var(--copper) !important;
+        }
+
+        .nav-cta:hover {
+            background: var(--copper);
+            color: var(--charcoal) !important;
+        }
+
+        /* Page Header */
+        .page-header {
+            padding: 140px 50px 60px;
+            text-align: center;
+        }
+
+        .page-header .label {
+            font-size: 11px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--copper);
+            margin-bottom: 15px;
+        }
+
+        .page-header h1 {
+            font-family: var(--font-display);
+            font-size: 32px;
+            font-weight: 400;
+            color: white;
+            margin-bottom: 16px;
+        }
+
+        .page-header p {
+            font-size: 15px;
+            color: var(--text-muted-dark);
+            max-width: 540px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        /* Featured Authors */
+        .featured-section {
+            padding: 40px 50px 60px;
+        }
+
+        .section-label {
+            font-size: 11px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--copper);
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .featured-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: 24px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .author-card-featured {
+            background: var(--warm-charcoal);
+            border: 1px solid var(--copper);
+            border-radius: var(--radius);
+            display: flex;
+            overflow: hidden;
+            transition: border-color 0.3s;
+        }
+
+        .author-card-featured:hover {
+            border-color: var(--copper-soft);
+        }
+
+        .author-photo-featured {
+            width: 160px;
+            min-height: 200px;
+            background: linear-gradient(135deg, var(--copper) 0%, #8B5A2B 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--charcoal);
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+        }
+
+        .author-photo-featured img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .author-info-featured {
+            padding: 24px;
+            flex: 1;
+        }
+
+        .author-info-featured h3 {
+            font-family: var(--font-display);
+            font-size: 18px;
+            font-weight: 400;
+            color: white;
+            margin-bottom: 4px;
+        }
+
+        .author-role {
+            font-size: 11px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: var(--copper);
+            margin-bottom: 12px;
+        }
+
+        .author-bio {
+            font-size: 14px;
+            color: var(--text-on-dark);
+            line-height: 1.7;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .author-books-count {
+            font-size: 12px;
+            color: var(--text-muted-dark);
+            margin-top: 12px;
+        }
+
+        .author-books-count strong {
+            color: var(--copper);
+        }
+
+        /* All Authors Grid */
+        .all-authors-section {
+            padding: 60px 50px;
+            background: var(--warm-charcoal);
+        }
+
+        .authors-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 20px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .author-card {
+            background: var(--charcoal);
+            border: 1px solid var(--copper-tint);
+            border-radius: var(--radius);
+            padding: 24px;
+            text-align: center;
+            transition: border-color 0.3s;
+        }
+
+        .author-card:hover {
+            border-color: rgba(184,115,51,0.3);
+        }
+
+        .author-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--copper) 0%, #8B5A2B 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 14px;
+            color: var(--charcoal);
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+        }
+
+        .author-avatar img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .author-card h3 {
+            font-family: var(--font-display);
+            font-size: 14px;
+            font-weight: 400;
+            color: white;
+            margin-bottom: 4px;
+        }
+
+        .author-card .author-role {
+            font-size: 10px;
+            margin-bottom: 0;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            padding: 80px 50px;
+            text-align: center;
+        }
+
+        .cta-box {
+            border: 1px solid var(--copper-tint);
+            padding: 50px 40px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .cta-line {
+            width: 40px;
+            height: 1px;
+            background: var(--copper);
+            margin: 0 auto 20px;
+        }
+
+        .cta-box h2 {
+            font-family: var(--font-display);
+            font-size: 24px;
+            font-weight: 400;
+            color: white;
+            margin-bottom: 14px;
+        }
+
+        .cta-box p {
+            font-size: 14px;
+            color: var(--text-muted-dark);
+            margin-bottom: 24px;
+            line-height: 1.8;
+        }
+
+        .btn-copper {
+            display: inline-block;
+            padding: 14px 40px;
+            border: 1px solid var(--copper);
+            color: var(--copper);
+            font-size: 12px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .btn-copper:hover {
+            background: var(--copper);
+            color: var(--charcoal);
+        }
+
+        /* Footer */
+        .footer {
+            background: #1A1A1A;
+            padding: 30px 40px;
+            text-align: center;
+        }
+
+        .footer-imprint {
+            font-family: var(--font-display);
+            font-size: 12px;
+            color: rgba(255,255,255,0.15);
+            font-style: italic;
+            margin-bottom: 12px;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 12px;
+        }
+
+        .footer-links a {
+            font-size: 11px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: rgba(255,255,255,0.2);
+            text-decoration: none;
+        }
+
+        .footer-links a:hover { color: rgba(255,255,255,0.4); }
+
+        .footer-copy {
+            font-size: 11px;
+            color: rgba(255,255,255,0.12);
+        }
+
+        @media (max-width: 900px) {
+            .featured-grid { grid-template-columns: 1fr; }
+            .author-card-featured { flex-direction: column; }
+            .author-photo-featured { width: 100%; min-height: 180px; }
+        }
+
+        @media (max-width: 768px) {
+            .nav { padding: 15px 25px; }
+            .nav-links a:not(.nav-cta) { display: none; }
+            .page-header, .featured-section, .all-authors-section, .cta-section { padding-left: 25px; padding-right: 25px; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <a href="/" class="nav-brand">Systovation <span>Publishing</span></a>
+        <div class="nav-links">
+            <a href="/books.html">Books</a>
+            <a href="/authors.html">Authors</a>
+            <a href="/get-published.html">Get Published</a>
+            <a href="https://cal.com/sukantratnakar/lets-talk" class="nav-cta">Start a Conversation</a>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="label">The Authors</div>
+        <h1>Voices Worth Publishing</h1>
+        <p>Executives, consultants, and professionals who have earned the substance behind the story. These are the authors who trust Systovation with their ideas.</p>
+    </header>
+
+    <!-- Featured Authors -->
+    <section class="featured-section">
+        <div class="section-label">Featured Authors</div>
+        <div class="featured-grid" id="featured-authors">
+            <!-- Loaded dynamically -->
+        </div>
+    </section>
+
+    <!-- All Authors -->
+    <section class="all-authors-section">
+        <div class="section-label">All Authors</div>
+        <div class="authors-grid" id="all-authors">
+            <!-- Loaded dynamically -->
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="cta-box">
+            <div class="cta-line"></div>
+            <h2>Join Our Authors</h2>
+            <p>Have expertise worth documenting? We're always looking for voices with something meaningful to say.</p>
+            <a href="/get-published.html" class="btn-copper">Get Published</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="footer-imprint">Systovation Publishing — an imprint of Quantraz Inc.</p>
+        <div class="footer-links">
+            <a href="https://quantraz.com">Quantraz</a>
+            <a href="https://sukantratnakar.com">Sukant Ratnakar</a>
+            <a href="mailto:sukant@quantraz.com">Email</a>
+        </div>
+        <p class="footer-copy">© 2026 Systovation Publishing · Quantraz Inc · Saskatoon, Canada</p>
+    </footer>
+
+    <script>
+        async function loadAuthors() {
+            try {
+                const response = await fetch('/data/authors.json');
+                const data = await response.json();
+                renderAuthors(data.authors);
+            } catch (error) {
+                console.error('Error loading authors:', error);
+            }
+        }
+
+        function getInitials(name) {
+            return name.split(' ').map(n => n[0]).join('').substring(0, 2);
+        }
+
+        function renderAuthors(authors) {
+            const featuredContainer = document.getElementById('featured-authors');
+            const allContainer = document.getElementById('all-authors');
+            
+            const featured = authors.filter(a => a.featured);
+            const all = authors;
+            
+            featuredContainer.innerHTML = featured.map(author => `
+                <a href="/author/${author.slug}.html" class="author-card-featured" style="text-decoration: none; color: inherit;">
+                    <div class="author-photo-featured">
+                        ${author.photo ? 
+                            `<img src="${author.photo}" alt="${author.name}" onerror="this.parentElement.innerHTML='${getInitials(author.name)}'">` : 
+                            getInitials(author.name)
+                        }
+                    </div>
+                    <div class="author-info-featured">
+                        <h3>${author.name}</h3>
+                        <div class="author-role">${author.role}</div>
+                        <p class="author-bio">${author.bio}</p>
+                        ${author.books && author.books.length > 0 ? 
+                            `<div class="author-books-count"><strong>${author.books.length}</strong> book${author.books.length > 1 ? 's' : ''} published</div>` : 
+                            ''
+                        }
+                    </div>
+                </a>
+            `).join('');
+            
+allContainer.innerHTML = all.map(author => `
+                <a href="/author/${author.slug}.html" class="author-card" style="text-decoration: none; color: inherit;">
+                    <div class="author-avatar">
+                        ${author.photo ? 
+                            `<img src="${author.photo}" alt="${author.name}" onerror="this.parentElement.innerHTML='${getInitials(author.name)}'">` : 
+                            getInitials(author.name)
+                        }
+                    </div>
+                    <h3>${author.name}</h3>
+                    <div class="author-role">${author.role}</div>
+                </a>
+            `).join('');
+        }
+
+        loadAuthors();
+    </script>
+</body>
+</html>

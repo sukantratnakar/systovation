@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anshu Bhatnagar | Systovation Publishing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/design-system.css">
+  <style>
+    .author-hero {
+      display: flex;
+      gap: 3rem;
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+      align-items: flex-start;
+    }
+    .author-photo {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid var(--copper);
+      flex-shrink: 0;
+    }
+    .author-info h1 {
+      font-family: 'Libre Baskerville', serif;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .author-role {
+      color: var(--copper);
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+    .author-bio {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: var(--cream);
+    }
+    .author-links {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .author-links a {
+      color: var(--copper);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .author-links a:hover {
+      text-decoration: underline;
+    }
+    .author-books {
+      padding: 3rem 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .author-books h2 {
+      font-family: 'Libre Baskerville', serif;
+      margin-bottom: 2rem;
+    }
+    .books-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 2rem;
+    }
+    .book-card {
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s;
+    }
+    .book-card:hover {
+      transform: translateY(-5px);
+    }
+    .book-card img {
+      width: 100%;
+      aspect-ratio: 2/3;
+      object-fit: contain;
+      background: #1a1a1a;
+      border-radius: 8px;
+    }
+    .book-card h4 {
+      margin-top: 0.75rem;
+      font-size: 0.95rem;
+      color: var(--cream);
+    }
+    @media (max-width: 768px) {
+      .author-hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .author-links {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <a href="/" class="logo">Systovation</a>
+    <div class="nav-links">
+      <a href="/books.html">Books</a>
+      <a href="/authors.html">Authors</a>
+      <a href="/get-published.html">Get Published</a>
+    </div>
+  </nav>
+
+  <section class="author-hero">
+    <img src="/assets/authors/anshu-bhatnagar.jpg" alt="Anshu Bhatnagar" class="author-photo">
+    <div class="author-info">
+      <h1>Anshu Bhatnagar</h1>
+      <p class="author-role">Photographer & Designer</p>
+      <p class="author-bio">Anshu Bhatnagar sees things most of us miss. His photography has documented everything from sacred cities to government initiatives, always with an eye for the story within the scene. Beyond the camera, Anshu is a designer whose work shapes how Quantraz books feel in your hands. He's the visual half of many collaborations in this catalog — the person who turns ideas into images and manuscripts into beautiful objects.</p>
+      
+    </div>
+  </section>
+
+  
+  <section class="author-books">
+    <h2>Books by Anshu Bhatnagar</h2>
+    <div class="books-grid">
+      
+    <a href="/book/pushkarnama.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/okla/files/large/1.jpg" alt="Pushkarnama" loading="lazy">
+      <h4>Pushkarnama</h4>
+    </a>
+  
+    <a href="/book/dhami-vision-2025.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/uybq/files/large/1.jpg" alt="Pushkar Singh Dhami - Vision 2025" loading="lazy">
+      <h4>Pushkar Singh Dhami - Vision 2025</h4>
+    </a>
+  
+    <a href="/book/homeguards-uttarakhand.html" class="book-card">
+      <img src="https://online.anyflip.com/eqoah/nunw/files/large/1.jpg" alt="Homeguards of Uttarakhand" loading="lazy">
+      <h4>Homeguards of Uttarakhand</h4>
+    </a>
+  
+    </div>
+  </section>
+  
+
+  <footer class="footer">
+    <p>© 2026 Systovation Publishing. A Quantraz Company.</p>
+  </footer>
+</body>
+</html>
